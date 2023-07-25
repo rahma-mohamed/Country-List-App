@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country List App</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Country List App</h2>
+    <div class="controls">
+        
+      <select id="countryDropdown"> 
+        
+        <option value="Egypt">Egypt</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Kuwait">Kuwait</option>
+        <option value="Morocco">Morocco</option>
+        <option value="Turkiye">Turkiye</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+        <!-- Add more countries here -->
+      </select>
+      <button onclick="addToGridView()">Add to Grid</button>
+    </div>
+    <div class="grid-view" id="gridView">
+      <!-- Selected countries will be added here dynamically -->
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
